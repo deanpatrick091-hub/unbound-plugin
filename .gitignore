@@ -1,0 +1,8 @@
+# Secrets — set these in Vercel's project environment variables, never in git.
+.env
+.env.*
+!.env.example
+
+node_modules/
+.vercel/
+*.log
